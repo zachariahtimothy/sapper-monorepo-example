@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build:webapp-example": "yarn workspace @mcsapper/webapp-example build",
     "dev:webapp-example": "yarn workspace @mcsapper/webapp-example dev"
   },
   "dependencies": {},
