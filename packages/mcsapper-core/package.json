@@ -1,0 +1,14 @@
+{
+  "name": "@mcsapper/core",
+  "version": "1.0.0",
+  "svelte": "Nav.svelte",
+  "main": "dist/nav.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
