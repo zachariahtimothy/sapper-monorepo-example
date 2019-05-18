@@ -9,28 +9,29 @@
   "private": true,
   "scripts": {
     "build:webapp-example": "yarn workspace @mcsapper/webapp-example build",
+    "clean": "rm -rf node_modules yarn.lock",
     "dev:webapp-example": "yarn workspace @mcsapper/webapp-example dev"
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.4.3",
+    "@babel/core": "^7.4.x",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-transform-runtime": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
-    "chokidar": "^2.1.5",
-    "rollup": "^1.10.1",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "chokidar": "^3.0.0",
+    "rollup": "^1.12.2",
     "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-typescript2": "^0.20.1",
-    "sapper": "^0.26.0-alpha.12",
-    "svelte": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "sapper": "^0.27.0",
+    "svelte": "^3.4.1",
     "tslint": "^5.16.0",
-    "typescript": "^3.4.4"
+    "typescript": "^3.4.5"
   },
   "workspaces": {
     "packages": [

@@ -1,8 +1,8 @@
 <script>
-	// import Nav from '../components/Nav.html';
-	import Nav from '@mcsapper/core';
+	import Nav from '../components/Nav.svelte';
+	// import Nav from '@mcsapper/core';
 	export let segment;
-	
+
 </script>
 
 <style>

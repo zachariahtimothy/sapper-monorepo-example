@@ -15,7 +15,8 @@ export default {
     commonjs(),
 		svelte({
       // emitCss: true,
-      generate: 'ssr',
+			generate: 'ssr',
+			include: 'src/components/**/*.svelte',
 		})
 	]
 };
